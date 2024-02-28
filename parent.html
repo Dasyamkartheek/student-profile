@@ -1,0 +1,122 @@
+<!-- student-login.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>parent-Login</title>
+    <style>
+    body {
+        font-family: 'Arial', sans-serif;
+        background-color: #f4f4f4;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background-image: url(pln.jpg);
+    background-size: cover;
+        background-position: center;
+    
+    }
+
+
+    
+    .container {
+        background-color: #fff;
+        padding: 9px 10px;
+        margin: 0px 70px;
+        border-radius:30px;
+        box-shadow: 10px rgba(0, 0, 0, 0.1);
+        max-width: 500px;
+        width: 900px;
+        background-color: #f7f4f8;
+        border-bottom-left-radius: 30px;
+        height: -400px;
+    }
+    
+    h2 {
+        text-align: center;
+        color: #333;
+        color: #010315;
+        font-size: 30px;
+        margin-top: 10px;
+        text-transform: uppercase;
+    }
+    
+    form {
+        display: flex;
+        flex-direction: column;
+        margin: 10px 20px;
+    }
+    
+    label {
+        margin-top: 30px;
+        color: #382ad8;
+        font-weight: bolder;
+    }
+    
+    input {
+        padding: 6px 10px;
+        border-radius: 5px;
+        border-spacing: ch;
+        margin:5px 5px;
+        font-weight: bolder;
+    }
+    
+    button {
+        padding: 12px;
+        background-color: #007BFF;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        margin:20px 10px;
+    }
+    
+    button:hover {
+        background-color: #0056b3;
+    }
+    
+    p {
+        text-align: center;
+        margin-top: 16px;
+    }
+    
+    a {
+        color: #0879f1;
+        text-decoration: none;
+        letter-spacing:1px;
+        font-size: 15px;
+        border:
+        border-color: #010315;
+        border-radius: 20px;
+        font-weight: bold;
+        font-style: oblique;
+    }
+    
+    a:hover {
+        text-decoration: underline  rgb(81, 214, 9);
+    }
+    </style>
+
+</head>
+<body>
+    <div class="container">
+        <h2>parent-login</h2>
+        <form>
+
+            <label for="parent-login">Username:</label><br><br>
+            <input type="text" id="parent" name="parent" required>
+            <label for="studentPassword">Password:</label><br>
+            <input type="password" id="studentPassword" name="studentPassword" required><br>
+            <label for="parent-login">student unq id:</label><br><br>
+            <input type="text" id="parent" name="parent" required>
+            <button type="submit">Login</button>
+        </form>
+        <p>Don't have an account? <a href="parent.html">switch to parent register</a></p>
+        <p><a href="student1.html">Switch to student profile </a> | <a href="teacher.html">Switch to Teacher Login</a></p>
+    </div>
+</body>
+</html>
